@@ -26,6 +26,7 @@ h2 {
   border-radius: $thumb_border_radius;
   background: $meli_blue;
   display: flex;
+  display: -webkit-box;
   justify-content: center;
   align-items: center;
   color: white;

@@ -20,6 +20,7 @@ h2 {
   border-radius: 4px;
   background: #3483fa;
   display: flex;
+  display: -webkit-box;
   justify-content: center;
   align-items: center;
   color: white;

@@ -4,6 +4,7 @@ Test Práctico Front End
 ## Build and run
 
 yarn install
+
 yarn run run:all
 
 ## Build front end
@@ -15,6 +16,8 @@ yarn run build:front
 yarn run build:server
 
 ## Run server
+
+yarn install
 
 yarn start
 

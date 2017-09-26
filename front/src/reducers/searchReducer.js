@@ -10,7 +10,7 @@ const INITIAL_STATE = {
 export default (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case SEARCH_REQUESTED:
-      return {...state, isFetching: true, error: null}
+      return {...state, isFetching: true, error: null, filters: []}
     case SEARCH_SUCCESS:
       return {...state, isFetching: false, items: action.payload.data.items, filters: action.payload.data.filters}
     case SEARCH_ERROR:

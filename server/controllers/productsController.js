@@ -31,7 +31,7 @@ module.exports = function (app) {
         res.json({'responseCode': 1, 'responseDesc': 'Success', 'data': responseData});
       })
       .catch(error => {
-        return res.json({'responseCode': 0, 'responseDesc': JSON.parse(error)});
+        next();
       });
   });
 };

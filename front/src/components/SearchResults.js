@@ -35,7 +35,7 @@ export class SearchResults extends Component {
     if (isFetching) {
       return <Spinner/>
     }
-    if (!items.length) return null;
+    if (!items.length) return <h4>No hay resultados para su busqueda</h4>;
     return <ListContainer products={items}/>
   };
 

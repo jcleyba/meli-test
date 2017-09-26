@@ -19,9 +19,6 @@ yarn-error.log*
 # ignore generated css files
 src/**/*.css
 
-# ignore environment vars
-.env
-
 # JetBrains
 .idea/
 .idea/*

@@ -15,7 +15,7 @@ module.exports = function (app) {
   };
   const meliSearchUrl = `${process.env.MELI_API_URL}/sites/MLA/search?q=`;
 
-  app.get('/api/items', (req, res) => {
+  app.get('/api/items', (req, res, next) => {
 
     axios.get(`${meliSearchUrl}${req.query.q}`).then(response => {
 
@@ -30,8 +30,8 @@ module.exports = function (app) {
 
       res.json({'responseCode': 1, 'responseDesc': 'Success', 'data': responseData});
     })
-      .catch(error => {
-        res.json({'responseCode': 0, 'responseDesc': 'Failed', 'error': JSON.parse(error)});
+      .catch(() => {
+        next();
       });
 
   });
