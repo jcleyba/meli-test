@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDetail Component ProductDetail matches current snapshot 1`] = `"<div class=\\"product-wrapper\\"><ol class=\\"breadcrumbs\\"></ol><div class=\\"product-detail\\"><div class=\\"left\\"><div class=\\"item-picture\\"><img class=\\"product-pic\\"/></div><h2>Descripción del producto</h2></div><div class=\\"right\\"><div class=\\"item-condition\\">Nuevo - undefined vendidos</div><h1 class=\\"item-title\\"></h1><div class=\\"item-price\\">$ undefined</div><button class=\\"buy-btn\\">Comprar</button></div></div></div>"`;

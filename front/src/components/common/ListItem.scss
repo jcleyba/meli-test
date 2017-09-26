@@ -1,0 +1,58 @@
+@import "../../styles/_variables";
+
+.list-item {
+  display: flex;
+  padding: $box_padding 0;
+  border-bottom: solid 1px $light_grey;
+  justify-content: flex-start;
+
+  &:first-of-type {
+    padding-top: 0;
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+  .thumbnail {
+    margin-right: $box_padding;
+    img {
+      border-radius: $thumb_border_radius;
+      width: 180px;
+      height: 180px;
+    }
+  }
+  .price {
+    display: flex;
+    align-items: center;
+    margin-bottom: $price_margin;
+    font-size: $price_font_size;
+    margin-top: $box_padding;
+    .free-shipping {
+      margin-left: 10px;
+
+      img {
+        max-width: 30px;
+      }
+    }
+  }
+
+  .description {
+    flex: 3;
+  }
+
+  .title {
+    font-size: $title_font_size;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+  .location {
+    flex: 1;
+    justify-self: flex-end;
+    color: $grey;
+    font-size: $location_font_size;
+  }
+}

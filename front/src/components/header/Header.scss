@@ -1,0 +1,17 @@
+@import '../../styles/_variables';
+
+.meli-header {
+  background: $meli_yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .logo {
+    max-width: 70px;
+    margin: 5px 20px 5px 0;
+
+    img {
+      width: 100%;
+    }
+  }
+}

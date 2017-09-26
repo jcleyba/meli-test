@@ -1,0 +1,19 @@
+{
+  "name": "test-practico-meli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "test:front": "cd front && yarn test",
+    "build:server": "cd server && npm install",
+    "start": "yarn run build:server && nodemon server",
+    "build:front": "cd front && yarn install && yarn build",
+    "run:all": "yarn run build:front && yarn run build:server && yarn start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.12.1",
+    "react-scripts": "^1.0.13"
+  }
+}

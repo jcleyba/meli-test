@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumbs Component Breadcrumbs matches current snapshot 1`] = `"<ol class=\\"breadcrumbs\\"><li class=\\"breadcrumb\\"><div class=\\"name\\">Name</div><div class=\\"chevron\\"><img src=\\"chevron-right.svg\\" alt=\\"chevron\\"/></div></li></ol>"`;

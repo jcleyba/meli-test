@@ -1,0 +1,12 @@
+@import '../styles/_variables';
+
+.main {
+  background: white;
+  padding: $price_margin;
+  text-align: center;
+  margin: $box_padding auto;
+
+  h1 {
+    font-size: $main_title_font_size;
+  }
+}

@@ -1,0 +1,29 @@
+@import '../../styles/_variables';
+
+.breadcrumbs {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: $box_padding auto;
+  font-size: $location_font_size;
+  color: $grey;
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+
+    &:last-child {
+      .chevron {
+        display: none;
+      }
+    }
+  }
+  .chevron {
+    margin: 0 2px;
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 10px;
+    }
+  }
+}

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component Header matches current snapshot 1`] = `"<header class=\\"meli-header\\"><div class=\\"logo\\"><a class=\\"active\\" aria-current=\\"true\\" href=\\"/\\"><img src=\\"Logo_ML@2x.png.png\\" alt=\\"logo\\" title=\\"logo\\"/></a></div><div class=\\"search-bar\\"><form><input type=\\"text\\" name=\\"search\\" class=\\"search-input\\" placeholder=\\"Nunca dejes de buscar\\" value=\\"\\"/><button type=\\"submit\\" class=\\"search-btn\\"></button></form></div></header>"`;

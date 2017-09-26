@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar Component SearchBar matches current snapshot 1`] = `"<div class=\\"search-bar\\"><form><input type=\\"text\\" name=\\"search\\" class=\\"search-input\\" placeholder=\\"Nunca dejes de buscar\\" value=\\"\\"/><button type=\\"submit\\" class=\\"search-btn\\"></button></form></div>"`;
+
+exports[`SearchBar Component SearchBar pass value onChange to input 1`] = `
+<div
+  className="search-bar"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      className="search-input"
+      name="search"
+      onChange={[Function]}
+      placeholder="Nunca dejes de buscar"
+      type="text"
+      value="ipad"
+    />
+    <button
+      className="search-btn"
+      type="submit"
+    />
+  </form>
+</div>
+`;

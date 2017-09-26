@@ -1,0 +1,44 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: #eee;
+  color: #333; }
+
+h1 {
+  font-size: 46px;
+  font-weight: normal; }
+
+h2 {
+  font-size: 28px;
+  font-weight: normal; }
+
+.buy-btn {
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  background: #3483fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer; }
+
+.search-results,
+.product-detail,
+.loading,
+.breadcrumbs,
+.main {
+  max-width: 1140px;
+  margin: auto; }
+
+.loading {
+  margin: 16px auto;
+  padding: 32px;
+  background: white;
+  text-align: center; }
+  .loading .spinner {
+    max-width: 50px; }

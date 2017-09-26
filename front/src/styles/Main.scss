@@ -1,0 +1,55 @@
+@import '_variables';
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+  background: $light_grey;
+  color: $dark_grey;
+}
+
+h1 {
+  font-size: $main_title_font_size;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: $sub_title_font_size;
+  font-weight: normal;
+}
+
+.buy-btn {
+  width: 100%;
+  border: 0;
+  border-radius: $thumb_border_radius;
+  background: $meli_blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: $title_font_size;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.search-results,
+.product-detail,
+.loading,
+.breadcrumbs,
+.main {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.loading {
+  margin: $box_padding auto;
+  padding: $price_margin;
+  background: white;
+  text-align: center;
+
+  .spinner {
+    max-width: 50px;
+  }
+}

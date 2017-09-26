@@ -1,0 +1,10 @@
+.meli-header {
+  background: #ffe600;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .meli-header .logo {
+    max-width: 70px;
+    margin: 5px 20px 5px 0; }
+    .meli-header .logo img {
+      width: 100%; }

@@ -1,0 +1,28 @@
+@import '../../styles/_variables';
+
+.search-bar {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  form,
+  .search-input {
+    width: 100%;
+    display: flex;
+  }
+  .search-input {
+    font-size: 18px;
+    color: $grey;
+    padding: 5px 60px 5px 15px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+  }
+  .search-btn {
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+    width: 46px;
+    height: 40px;
+    border: none;
+    background: url("../../images/ic_Search@2x.png.png") no-repeat center $light_grey;
+    background-size: 20px;
+  }
+}

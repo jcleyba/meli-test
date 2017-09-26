@@ -1,0 +1,18 @@
+.breadcrumbs {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 16px auto;
+  font-size: 12px;
+  color: #999; }
+  .breadcrumbs .breadcrumb {
+    display: flex;
+    align-items: center; }
+    .breadcrumbs .breadcrumb:last-child .chevron {
+      display: none; }
+  .breadcrumbs .chevron {
+    margin: 0 2px;
+    display: flex;
+    align-items: center; }
+    .breadcrumbs .chevron img {
+      width: 10px; }
